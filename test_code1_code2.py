@@ -50,7 +50,7 @@ class Test1Fixture(NutterFixture):
   def after_code2(self):
     spark.sql(f"drop table {self.code2_table_name}")
     
-  # we're using Chispa library here to compare the content of the processed dataframe with expected results
+  # we're using Chispa library here to compare the content of the processed dataframe with expected ..updated ...
   def assertion_upper_columns(self):
     cols = ["col1", "col2", "col3"]
     df = spark.createDataFrame([("abc", "cef", 1)], cols)
@@ -60,6 +60,7 @@ class Test1Fixture(NutterFixture):
 
 # COMMAND ----------
 
+#Add comment1 33
 result = Test1Fixture().execute_tests()
 print(result.to_string())
 is_job = dbutils.notebook.entry_point.getDbutils().notebook().getContext().currentRunId().isDefined()
