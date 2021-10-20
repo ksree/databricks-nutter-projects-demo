@@ -3,6 +3,7 @@
 
 # COMMAND ----------
 
+<<<<<<< HEAD
 # MAGIC %run ./Code1
 
 # COMMAND ----------
@@ -12,6 +13,12 @@
 # COMMAND ----------
 
 # https://github.com/microsoft/nutter
+=======
+# some change
+
+# COMMAND ----------
+
+>>>>>>> origin/branch3
 from runtime.nutterfixture import NutterFixture, tag
 # https://github.com/MrPowers/chispa
 #
