@@ -5,9 +5,4 @@ def generate_data2(table_name="my_data"):
 
 # COMMAND ----------
 
-<<<<<<< HEAD
 # another release trigger one more change
-#
-=======
-# just make a comment
->>>>>>> origin/branch3
