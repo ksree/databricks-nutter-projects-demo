@@ -3,7 +3,6 @@
 
 # COMMAND ----------
 
-<<<<<<< HEAD
 # MAGIC %run ./Code1
 
 # COMMAND ----------
@@ -13,17 +12,9 @@
 # COMMAND ----------
 
 # https://github.com/microsoft/nutter
-=======
-# some change
-
-# COMMAND ----------
-
->>>>>>> origin/branch3
 from runtime.nutterfixture import NutterFixture, tag
 # https://github.com/MrPowers/chispa
-#
 from chispa.dataframe_comparer import *
-
 
 class Test1Fixture(NutterFixture):
   def __init__(self):
@@ -68,5 +59,3 @@ if is_job:
   result.exit(dbutils)
 
 # COMMAND ----------
-
-
