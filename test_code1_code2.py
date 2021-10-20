@@ -41,7 +41,7 @@ class Test1Fixture(NutterFixture):
   def after_code2(self):
     spark.sql(f"drop table {self.code2_table_name}")
     
-  # we're using Chispa library here to compare the content of the processed dataframe with expected ..updated 
+  # we're using Chispa library here to compare the content of the processed dataframe with expected ..updated ...
   def assertion_upper_columns(self):
     cols = ["col1", "col2", "col3"]
     df = spark.createDataFrame([("abc", "cef", 1)], cols)
