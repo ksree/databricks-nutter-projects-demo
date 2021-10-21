@@ -51,11 +51,9 @@ class Test1Fixture(NutterFixture):
 
 # COMMAND ----------
 
-#Add comment1 444
+#Update  comment1 555
 result = Test1Fixture().execute_tests()
 print(result.to_string())
 is_job = dbutils.notebook.entry_point.getDbutils().notebook().getContext().currentRunId().isDefined()
 if is_job:
   result.exit(dbutils)
-
-# COMMAND ----------
