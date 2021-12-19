@@ -23,5 +23,9 @@ def upper_columns(df: DataFrame, cols: list) -> DataFrame:
 
 # COMMAND ----------
 
+<<<<<<< HEAD
 # just a change of the code to trigger release
 #
+=======
+# just a change of the code to trigger release v3
+>>>>>>> origin/branch6
